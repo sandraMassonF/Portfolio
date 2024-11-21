@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* POLICES */
+
+.inria-sans-regular {
+font-family: "Inria Sans", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.inria-sans-bold {
+font-family: "Inria Sans", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+.inria-sans-regular-italic {
+font-family: "Inria Sans", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.fira-sans-condensed-regular {
+font-family: "Fira Sans Condensed", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.fira-sans-condensed-bold {
+font-family: "Fira Sans Condensed", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.fira-sans-condensed-black {
+font-family: "Fira Sans Condensed", serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.fira-sans-condensed-regular-italic {
+font-family: "Fira Sans Condensed", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.fira-sans-condensed-bold-italic {
+font-family: "Fira Sans Condensed", serif;
+font-weight: 700;
+font-style: italic;
+}
+
+/*FIN POLICES */
+
+.banner{
+    background-image: url(./img/fond.png);
+    height: 45rem;
+}
+
+.fonttitres{
+    color: aliceblue;
+    text-align: center;
+}
+
+.container{
+    margin-top: 10rem;
+}
+
+.titre h1{
+    font-size: 64px;
+    margin-bottom: 5rem;
+}
+
+.titre h2{
+    font-size: 48px;
+    margin-bottom: 5rem;
+}
