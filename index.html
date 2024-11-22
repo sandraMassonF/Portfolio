@@ -19,19 +19,30 @@
 </head>
 <body>
     
-<header class="banner fonttitres">
-  <nav class="nav d-flex justify-content-end py-4">
+  <header class="banner fonttitres" id="accueil">
+  <!-- <nav class="nav d-flex justify-content-end py-4">
       <ul class="nav nav-pills">
         <li class="nav-item mx-4 "><a href="#" class="nav-link active" aria-current="page">ACCUEIL</a></li>
         <li class="nav-item mx-4"><a href="#h1" class="nav-link mx-4">A PROPOS</a></li>
         <li class="nav-item mx-4"><a href="#" class="nav-link">PROJETS</a></li>
         <li class="nav-item mx-4"><a href="#" class="nav-link">CONTACT</a></li>
       </ul>
-  </nav>
+  </nav> !-->
+
+    <div class="topnav" id="myTopnav">
+      <a href="#accueil" class="mx-2">ACCUEIL</a>
+      <a href="#apropos" class="mx-2">A PROPOS</a>
+      <a href="#projets" class="mx-2">PROJETS</a>
+      <a href="#contact" class="mx-2">CONTACT</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
 
     <div class="container d-flex justify-content-between">
-      <article class="titre">
-        <h1 id="h1 fonttitres">SANDRA<br>MASSON-FAUCHIER</h1>
+      <article class="titreheader fonttitres">
+        <h1 class="fonttitres">SANDRA<br>MASSON-FAUCHIER</h1>
         <h2>Développeuse Web</h2>
       </article>
       <article class="reseaux d-flex flex-column justify-content-between">
@@ -40,12 +51,12 @@
        <a href="https://github.com/sandraMassonF" target="_blank"><img src="https://skillicons.dev/icons?i=github" class="imghover"/></a>
       </article>
     </div>
-    </header>
+  </header>
   
   <main>
     <section class="d-flex">
-      <article class="quisuisje">
-        <h3 class="titresection">Qui suis-je ?</h3>
+      <article class="quisuisje" id="apropos">
+        <h3 class="titresection fonttitres">Qui suis-je ?</h3>
         <p>Après huit ans dans le domaine de l'environnement, je me reconvertis dans un domaine qui me passionne davantage : le numérique.</p>
         <p>Dotée d'une écoute attentive, je considère l'empathie comme une qualité essentielle en communauté. Ma persévérance me pousse à relever des défis et atteindre mes objectifs. Mon objectif ultime serait de contribuer de manière significative au monde numérique mettant à son service mon expérience dans l'environnement.</p>
         <p class="citation">“L'apprentissage est la seule chose que l'esprit n'épuise jamais, ne craint jamais et ne regrette jamais.”<span>L. De Vinci</span></p>
@@ -56,8 +67,8 @@
       </article>      
     </section>
 
-    <h3 class="titresection titreskills">Skills</h3>
-    <section class="skills d-flex">
+    <h3 class="titresection titreskills fonttitres">Skills</h3>
+    <section class="skills d-flex justify-content-center">
       <article class="hardskills">
         <img src="https://skillicons.dev/icons?i=figma,vscode"/><br>
         <img src="https://skillicons.dev/icons?i=html,css"/><img src="https://skillicons.dev/icons?i=js,bootstrap"/><br>
@@ -65,22 +76,22 @@
         <img src="https://skillicons.dev/icons?i=php,symfony"/>
 
       </article>
-      <article class="présentation">
+      <article class="presentation">
         <p>Je suis une personne animée par un fort <span>esprit d'équipe</span>
           , convaincue que la collaboration est essentielle pour atteindre des objectifs communs. Mon <span>adaptabilité</span> me permet de m'intégrer rapidement dans différents environnements et de relever les défis avec flexibilité. Toujours guidé(e) par la <span>rigueur</span>, je m'efforce de fournir un travail soigné et structuré. Ma <span>curiosité</span> naturelle m'incite à apprendre en continu et à élargir mes compétences, tandis que mon <span>savoir être</span> me permet de créer des relations harmonieuses. Enfin, mon <span>empathie</span> me pousse à comprendre les besoins et les émotions des autres, favorisant ainsi des échanges constructifs et humains.</p>
       </article>
     </section>
 
-    <section class="projets">
-    <h3 class="titresection titreprojet">Projets</h3>
-      <article class="d-flex justify-content-around">
+    <section class="projets" id="projets">
+    <h3 class="titresection fonttitres titreheader">Projets</h3>
+      <article class="d-flex justify-content-around cards">
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <img src="./img/logoseul.png" alt="Avatar" style="width:300px;height:300px; border-radius:15px;">
               </div>
               <div class="flip-card-back">
-              <h4 class="titrecard">Cours de Yoga</h4> 
+              <a href="https://github.com/sandraMassonF/Yogizgood" target="_blank"><h4 class="titrecard">Cours de Yoga</h4> 
               <p>Réservations en ligne</p>
               <h4>Outils</h4>
               <p>
@@ -88,6 +99,7 @@
                 <img src="https://skillicons.dev/icons?i=html,css"/><img src="https://skillicons.dev/icons?i=js,bootstrap"/>
                 <img src="https://skillicons.dev/icons?i=php,symfony"/>                
               </p>
+            </a>
               </div>
             </div>
           </div>    
@@ -98,13 +110,14 @@
                 <img src="./img/logo.jpg" alt="Avatar" style="width:300px;height:300px; border-radius:15px;">
               </div>
               <div class="flip-card-back">
-              <h4 class="titrecard">Santhogian</h4> 
+                <a href="https://github.com/sandraMassonF/FanSite" target="_blank"><h4 class="titrecard">Santhogian</h4> 
               <p>FanSite multi univers</p>
               <h4>Outils</h4>
               <p>
                 <img src="https://skillicons.dev/icons?i=figma,vscode"/>
                 <img src="https://skillicons.dev/icons?i=html,css,bootstrap"/>      
               </p>
+            </a>
               </div>
             </div>
           </div>        
@@ -122,6 +135,7 @@
 
   </main>
  
+  <script src="./script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
