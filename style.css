@@ -62,16 +62,15 @@ body{
 }
 .banner{
     background-image: url(./img/fond.png);
-    background-position: cover;  
-    height: 45rem;
+    background-position: bottom;  
+    height: 65vh;
 }
 .reseaux img{
-    width: 5rem;   
+    width: 4rem;
+    margin: 1rem;   
 }
 
-
 /*NAVBAR */
-
 .topnav {
     overflow: hidden;
     /* position: fixed;
@@ -79,9 +78,9 @@ body{
     height: 8rem;
     padding: 2rem;
 
-  }
-  
-  .topnav a {
+}
+
+.topnav a {
     float: left;
     display: block;
     color: aliceblue;
@@ -89,20 +88,20 @@ body{
     padding: 1rem 2rem;
     text-decoration: none;
     font-size: 24px;
-  }
-  
-  .topnav a:hover {
+}
+
+.topnav a:hover {
     background-color: rgba(221, 221, 221, 0.514);
     color: black;
     border-radius: 15px;
-  }
-    
-  .topnav .icon {
+}
+
+.topnav .icon {
     display: none;
-  }
+}
 
  
-  /* FIN NAVBAR */
+/* FIN NAVBAR */
 
 /* TITRES */
 .fonttitres{
@@ -126,24 +125,23 @@ body{
 
 }
 .titreheader h1{
-    font-size: 64px;
-}
-
-.titreheader h2{
     font-size: 48px;
 }
 
-.titreskills{
-    background-image: url(./img/fond2.png);
-    height: 5rem;    
-    margin-bottom: 4rem;
+.titreheader h2{
+    font-size: 36px;
 }
 
 
 /*FIN TITRES */
 
 .container{
-    margin-top: 10rem;
+    margin-top: 5rem;
+}
+
+.photo-moi{
+    width: 20rem;
+    border-radius: 15px ;
 }
 
 .quisuisje{

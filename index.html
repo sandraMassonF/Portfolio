@@ -20,16 +20,7 @@
 <body>
     
   <header class="banner fonttitres" id="accueil">
-  <!-- <nav class="nav d-flex justify-content-end py-4">
-      <ul class="nav nav-pills">
-        <li class="nav-item mx-4 "><a href="#" class="nav-link active" aria-current="page">ACCUEIL</a></li>
-        <li class="nav-item mx-4"><a href="#h1" class="nav-link mx-4">A PROPOS</a></li>
-        <li class="nav-item mx-4"><a href="#" class="nav-link">PROJETS</a></li>
-        <li class="nav-item mx-4"><a href="#" class="nav-link">CONTACT</a></li>
-      </ul>
-  </nav> !-->
-
-    <div class="topnav" id="myTopnav">
+    <nav class="topnav" id="myTopnav">
       <a href="#accueil" class="mx-2">ACCUEIL</a>
       <a href="#apropos" class="mx-2">A PROPOS</a>
       <a href="#projets" class="mx-2">PROJETS</a>
@@ -37,19 +28,22 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
-    </div>
-
-
+    </nav>
+    
     <div class="container d-flex justify-content-between">
       <article class="titreheader fonttitres">
         <h1 class="fonttitres">SANDRA<br>MASSON-FAUCHIER</h1>
         <h2>Développeuse Web</h2>
       </article>
-      <article class="reseaux d-flex flex-column justify-content-between">
+      <article class="photo d-flex flex-column">
+        <img class ="photo-moi" src="./img/moi5.png" alt="sandra">
+        <a href="" class="bouton"><i class="fa-solid fa-download" <i class="fa-solid fa-download" style="color: #ffffff;"></i> CV.pdf</a>
+      </article> 
+      <aside class="reseaux d-flex flex-column justify-content-center">
         <a href="mailto:s.bacot@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=light" class="imghover"/></a>
         <a href="https://www.linkedin.com/in/sandra-masson-fauchier-bacot-40b300a9/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" class="imghover"/></a>
        <a href="https://github.com/sandraMassonF" target="_blank"><img src="https://skillicons.dev/icons?i=github" class="imghover"/></a>
-      </article>
+      </aside>
     </div>
   </header>
   
@@ -61,13 +55,10 @@
         <p>Dotée d'une écoute attentive, je considère l'empathie comme une qualité essentielle en communauté. Ma persévérance me pousse à relever des défis et atteindre mes objectifs. Mon objectif ultime serait de contribuer de manière significative au monde numérique mettant à son service mon expérience dans l'environnement.</p>
         <p class="citation">“L'apprentissage est la seule chose que l'esprit n'épuise jamais, ne craint jamais et ne regrette jamais.”<span>L. De Vinci</span></p>
       </article>
-      <article class="photo d-flex flex-column">
-        <img src="./img/moi3.jpeg" alt="sandra">
-        <a href="" class="bouton"><i class="fa-solid fa-download" <i class="fa-solid fa-download" style="color: #ffffff;"></i> CV.pdf</a>
-      </article>      
+           
     </section>
 
-    <h3 class="titresection titreskills fonttitres">Skills</h3>
+    <h3 class="titresection fonttitres">Skills</h3>
     <section class="skills d-flex justify-content-center">
       <article class="hardskills">
         <img src="https://skillicons.dev/icons?i=figma,vscode"/><br>
